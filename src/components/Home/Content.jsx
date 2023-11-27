@@ -1,5 +1,5 @@
 import { Box, Container, Flex, Image,  } from "@chakra-ui/react"
-import jumbotron from '../../assets/jumbotron.png'
+// import jumbotron from '../../assets/jumbotron.png'
 const Content = () => {
     return (
         <>
@@ -18,7 +18,7 @@ const Content = () => {
                             <Image src={contentImage} />
                         </Box> */}
                         <Box width={"100%"}  display={"flex"}justifyContent={"center"}>
-                            <Image src={jumbotron} width={"100%"}/>
+                            <Image src="https://res.cloudinary.com/doykilt63/image/upload/v1701064565/Jumbotron_1_ieusqz.png" alt="image" width={"100%"}/>
                         </Box>
                     </Flex>
             </Container>
